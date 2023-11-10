@@ -1,0 +1,58 @@
+{
+	"name": "@ctx-core/dormant-catch-all",
+	"version": "0.0.0",
+	"private": true,
+	"description": "ctx-core monorepo",
+	"type": "module",
+	"keywords": [
+		"ctx-core"
+	],
+	"homepage": "https://github.com/ctx-core/ctx-core",
+	"bugs": {
+		"url": "https://github.com/ctx-core/ctx-core/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ctx-core/ctx-core.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"directories": {
+		"test": "test"
+	},
+	"workspaces": {
+		"packages": [
+			"lib/*"
+		]
+	},
+	"bin": {
+		"build-watch": "./bin/build-watch.sh",
+		"ctx_core__monorepo_pnpm__dependencies__update": "./bin/ctx_core__monorepo_pnpm__dependencies__update.sh",
+		"pnpm-up": "./bin/pnpm-up.sh",
+		"rm_src_js_dts": "./bin/rm_src_js_dts.sh",
+		"strip-workspace": "./bin/strip-workspace.sh",
+		"tmux-dev": "./bin/tmux-dev.sh",
+		"tmux-rename-window": "./bin/tmux-rename-window.sh"
+	},
+	"scripts": {
+		"build": ":",
+		"clean": ":",
+		"exec": "$@"
+	},
+	"dependencies": {
+		"@pnpm/list": "^9.1.4",
+		"@pnpm/sort-packages": "^5.0.7",
+		"esm": "^3.2.25"
+	},
+	"devDependencies": {
+	},
+	"pnpm": {
+		"overrides": {
+			"@ctx-core/*": "*",
+			"chalk": "4.1.2",
+			"nodegit": "next"
+		}
+	},
+	"noUpdate": [],
+	"preferGlobal": true
+}
