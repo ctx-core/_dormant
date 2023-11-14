@@ -7,13 +7,13 @@
 	"keywords": [
 		"ctx-core"
 	],
-	"homepage": "https://github.com/ctx-core/ctx-core",
+	"homepage": "https://github.com/ctx-core/dormant-catch-all",
 	"bugs": {
-		"url": "https://github.com/ctx-core/ctx-core/issues"
+		"url": "https://github.com/ctx-core/dormant-catch-all/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ctx-core/ctx-core.git"
+		"url": "git+https://github.com/ctx-core/dormant-catch-all.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
