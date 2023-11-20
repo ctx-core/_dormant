@@ -37,7 +37,8 @@
 	"scripts": {
 		"build": ":",
 		"clean": ":",
-		"exec": "$@"
+		"exec": "$@",
+		"test": ":"
 	},
 	"dependencies": {
 		"@pnpm/list": "^9.1.4",
